@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Blog Container -->
+    <main>
+        <header>
+            <h1>Welcome to My Blog</h1>
+            <p>Sharing insights on various topics</p>
+        </header>
+
+        <!-- Filter Buttons -->
+        <nav id="filter-buttons">
+            <button onclick="filterArticles('all')">All</button>
+            <button onclick="filterArticles('Technology')">Technology</button>
+            <button onclick="filterArticles('Lifestyle')">Lifestyle</button>
+            <button onclick="filterArticles('Health')">Health</button>
+        </nav>
+
+        <!-- Article 1 -->
+        <article data-topic="Technology">
+            <header>
+                <h2>The Transformative Power of Technology in Daily Life</h2>
+                <p><strong>Category:</strong> Technology</p>
+            </header>
+            <figure>
+                <img src="./img/technology.jpg" alt="Futuristic technologies coming out of a laptop">
+                <figcaption>Knowledge at the palm of our hands</figcaption>
+            </figure>
+            <section>
+                <p>Technology has become an integral part of daily life, reshaping how we communicate, work, and access information. From smartphones and wearable devices to smart home systems, technological advancements offer convenience and connectivity like never before. These tools not only enhance productivity but also bring a range of services and resources directly to our fingertips, allowing for seamless, efficient interactions in personal and professional settings.</p>
+                <p>Beyond convenience, current technology also plays a role in improving quality of life through innovations in healthcare, education, and environmental sustainability. For example, telemedicine and e-learning have expanded access to health and education services, breaking down traditional barriers and enabling broader reach across various populations.</p>
+                <p>Looking ahead 100 years, experts project that technology will further integrate into every aspect of human life, potentially through advancements in artificial intelligence, robotics, and virtual reality. These technologies may redefine what is possible, creating a world where daily tasks, learning, and healthcare are even more immersive, accessible, and efficient.</p>
+            </section>
+        </article>
+
+        <!-- Article 2 -->
+        <article data-topic="Lifestyle">
+            <header>
+                <h2>Maintaining a Healthy Balance with Technology for Mental Well-being</h2>
+                <p><strong>Category:</strong> Lifestyle</p>
+            </header>
+            <figure>
+                <img src="./img/lifestyle.jpeg" alt="A smiling woman crossing the street">
+                <figcaption>A balanced lifestyle comes from independece from digital distractions</figcaption>
+            </figure>
+            <section>
+                <p>While technology and social media enhance connectivity and information access, overuse can have adverse effects on mental health. Excessive screen time and constant online engagement may lead to anxiety, stress, and disrupted sleep patterns—critical factors in maintaining emotional balance and mental clarity. Social media, in particular, can amplify feelings of inadequacy and isolation due to the pressures of comparison.</p>
+                <p>To counter these effects, establishing healthy boundaries with technology is essential. Setting limits on screen time, especially in the evening, can improve sleep and reduce mental fatigue. Taking regular breaks from social media creates space for personal reflection and allows individuals to reconnect with themselves, away from the influence of others' online lives.</p>
+                <p>Engaging in offline activities and face-to-face interactions also benefits mental well-being. In-person connections foster deeper, more meaningful relationships and improve communication skills, aspects difficult to replicate online. Incorporating hobbies, exercise, and social activities into daily life provides a balanced approach, allowing individuals to enjoy the advantages of technology while nurturing mental health through authentic human connection.</p>
+            </section>
+        </article>
+
+        <!-- Article 3 -->
+        <article data-topic="Health">
+            <header>
+                <h2>The Importance of Balanced Nutrition for Disease Prevention</h2>
+                <p><strong>Category:</strong> Health</p>
+            </header>
+            <figure>
+                <img src="./img/health.jpeg" alt="Food and excercise helps to a better health">
+                <figcaption>Food and excercise helps to a better health</figcaption>
+            </figure>
+            <section>
+                <p>Maintaining a balanced diet is a cornerstone of overall health and wellness, offering essential nutrients that help prevent a variety of chronic diseases. By incorporating a range of fruits, vegetables, whole grains, and lean proteins, individuals can boost their immune system, support heart health, and reduce the risk of illnesses such as diabetes, heart disease, and obesity. Nutrient-dense foods provide antioxidants and anti-inflammatory benefits that can combat cellular damage and reduce the body's susceptibility to disease.</p>
+                <p>Beyond simply eating a variety of healthy foods, portion control and moderation also play a crucial role in maintaining a healthy weight, which further protects against chronic conditions. Regularly consuming processed foods and added sugars can lead to inflammation, which has been linked to numerous health issues. Overall, balanced nutrition, coupled with regular physical activity, can support long-term wellness and enhance quality of life.</p>
+            </section>
+        </article>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
